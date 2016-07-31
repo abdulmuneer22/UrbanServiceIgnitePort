@@ -38,7 +38,7 @@ export default new class Routes {
 
   get LandingPage () {
     return {
-      title: 'Urban Services',
+      title: 'Services',
       component: require('../Containers/LandingPage').default,
       leftButton: 'HAMBURGER'
     }

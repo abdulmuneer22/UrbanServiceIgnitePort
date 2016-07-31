@@ -37,7 +37,8 @@ export default StyleSheet.create({
   borderColor : 'white',
   borderWidth : 3,
   borderRadius : 5,
-  justifyContent : 'center'
+  justifyContent : 'center',
+  marginBottom : 10
 
   },
   homeButtonText : {
@@ -65,4 +66,12 @@ export default StyleSheet.create({
   textAlign : 'center',
   color : 'white'
   },
+
+  landingpageWrapper:{
+    
+    //justifyContent: 'center',
+    alignItems: 'center',
+    marginTop : 65,
+    flex : 1
+  }
 })
